@@ -1,0 +1,104 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 80px;
+  margin: 0px auto;
+  max-width: 1200px;
+  background-color: #ffffff;
+  background: ;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.logo span {
+  color: #007aff;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-family: cursive;
+}
+
+header a:hover {
+  color: #007aff;
+}
+
+.btns {
+  font-size: 30px;
+}
+
+.btn1,
+.btn2 {
+  padding: 10px 20px;
+  border-radius: 9px;
+}
+
+.btns .btn1 {
+  background-color: #ffffff;
+  border: 1px solid #007aff;
+  color: #007aff;
+  font-weight: 750;
+}
+
+.btns .btn1:hover {
+  background-color: #007aff;
+  color: #ffffff;
+}
+
+.btns .btn2 {
+  background-color: #007aff;
+  border: 1px solid #007aff;
+  color: #ffffff;
+  font-weight: 750;
+}
+
+.btns .btn2:hover {
+  background-color: #ffffff;
+  color: #007aff;
+}
+
+.front {
+  margin: 100px;
+}
+
+.way {
+  border: 0.5px solid rgb(188, 188, 188);
+  width: fit-content;
+  padding: 8px;
+  border-radius: 50px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 0px 0px 0px 10px;
+}
+
+.content span {
+  font-size: 55px;
+  font-family: "Arial Black", sans-serif;
+  font-weight: 900;
+}
+
+.content .p1 {
+  font-size: 20px;
+}
+
+img {
+  height: 340px;
+}
